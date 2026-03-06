@@ -1,0 +1,47 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Claude Code / Playwright MCP
+.claude/
+.playwright-mcp/
+*.swp
+*.swo
+
+# Secrets
+*.env
+.env.*
+!.env.example
