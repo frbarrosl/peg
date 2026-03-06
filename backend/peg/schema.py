@@ -2,11 +2,10 @@ import graphene
 import graphql_jwt
 
 from users.schema import AuthMutation, UserQuery
-from core.schema import Query as CoreQuery
 from exchange.schema import ExchangeQuery, ExchangeMutation
 
 
-class Query(UserQuery, CoreQuery, ExchangeQuery, graphene.ObjectType):
+class Query(UserQuery, ExchangeQuery, graphene.ObjectType):
     pass
 
 

@@ -24,7 +24,6 @@ INSTALLED_APPS = [
     "graphene_django",
     # Local
     "users",
-    "core",
     "exchange",
 ]
 
