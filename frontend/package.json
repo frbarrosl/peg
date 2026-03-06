@@ -1,0 +1,29 @@
+{
+  "name": "peg-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^4.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.3.8",
+    "@mui/material": "^7.3.8",
+    "framer-motion": "^12.0.0",
+    "graphql": "^16.10.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-number-format": "^5.4.4",
+    "react-router-dom": "^7.4.0",
+    "recharts": "^3.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
+  }
+}
